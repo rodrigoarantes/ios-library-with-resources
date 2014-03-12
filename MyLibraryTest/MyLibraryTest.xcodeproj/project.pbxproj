@@ -7,47 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93D0801018D09434008FCAF7 /* libMyLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D0800F18D09434008FCAF7 /* libMyLibrary.a */; };
+		93D0801218D0951A008FCAF7 /* MyLibraryResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 93D0801118D0951A008FCAF7 /* MyLibraryResources.bundle */; };
 		C91BD06E14C0436200727134 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91BD06D14C0436200727134 /* UIKit.framework */; };
 		C91BD07014C0436200727134 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91BD06F14C0436200727134 /* Foundation.framework */; };
 		C91BD07214C0436200727134 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91BD07114C0436200727134 /* CoreGraphics.framework */; };
 		C91BD07A14C0436200727134 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C91BD07914C0436200727134 /* main.m */; };
 		C91BD07E14C0436200727134 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C91BD07D14C0436200727134 /* AppDelegate.m */; };
-		C91BD09214C0440B00727134 /* MyLibraryResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C91BD08F14C0437000727134 /* MyLibraryResources.bundle */; };
-		C91BD09514C048B300727134 /* libMyLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C91BD08D14C0437000727134 /* libMyLibrary.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		A7DFD46114D17BDA0016FA42 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C91BD08414C0436F00727134 /* MyLibrary.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = C91BD03614C040F900727134;
-			remoteInfo = MyLibrary;
-		};
-		A7DFD46314D17BDD0016FA42 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C91BD08414C0436F00727134 /* MyLibrary.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = C91BD04A14C0412400727134;
-			remoteInfo = MyLibraryResources;
-		};
-		C91BD08C14C0437000727134 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C91BD08414C0436F00727134 /* MyLibrary.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C91BD03714C040F900727134;
-			remoteInfo = MyLibrary;
-		};
-		C91BD08E14C0437000727134 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C91BD08414C0436F00727134 /* MyLibrary.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C91BD04B14C0412400727134;
-			remoteInfo = MyLibraryResources;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		93D0800F18D09434008FCAF7 /* libMyLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libMyLibrary.a; path = "../MyLibrary/build/Debug-iphoneos/libMyLibrary.a"; sourceTree = "<group>"; };
+		93D0801118D0951A008FCAF7 /* MyLibraryResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = MyLibraryResources.bundle; sourceTree = SOURCE_ROOT; };
 		C91BD06914C0436200727134 /* MyLibraryTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLibraryTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C91BD06D14C0436200727134 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C91BD06F14C0436200727134 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,7 +28,6 @@
 		C91BD07B14C0436200727134 /* MyLibraryTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyLibraryTest-Prefix.pch"; sourceTree = "<group>"; };
 		C91BD07C14C0436200727134 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C91BD07D14C0436200727134 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C91BD08414C0436F00727134 /* MyLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MyLibrary.xcodeproj; path = ../MyLibrary/MyLibrary.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C91BD09514C048B300727134 /* libMyLibrary.a in Frameworks */,
+				93D0801018D09434008FCAF7 /* libMyLibrary.a in Frameworks */,
 				C91BD06E14C0436200727134 /* UIKit.framework in Frameworks */,
 				C91BD07014C0436200727134 /* Foundation.framework in Frameworks */,
 				C91BD07214C0436200727134 /* CoreGraphics.framework in Frameworks */,
@@ -78,7 +48,7 @@
 		C91BD05E14C0436200727134 = {
 			isa = PBXGroup;
 			children = (
-				C91BD08414C0436F00727134 /* MyLibrary.xcodeproj */,
+				93D0801118D0951A008FCAF7 /* MyLibraryResources.bundle */,
 				C91BD07314C0436200727134 /* MyLibraryTest */,
 				C91BD06C14C0436200727134 /* Frameworks */,
 				C91BD06A14C0436200727134 /* Products */,
@@ -96,6 +66,7 @@
 		C91BD06C14C0436200727134 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				93D0800F18D09434008FCAF7 /* libMyLibrary.a */,
 				C91BD06D14C0436200727134 /* UIKit.framework */,
 				C91BD06F14C0436200727134 /* Foundation.framework */,
 				C91BD07114C0436200727134 /* CoreGraphics.framework */,
@@ -123,15 +94,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C91BD08514C0436F00727134 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C91BD08D14C0437000727134 /* libMyLibrary.a */,
-				C91BD08F14C0437000727134 /* MyLibraryResources.bundle */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,8 +108,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				A7DFD46414D17BDD0016FA42 /* PBXTargetDependency */,
-				A7DFD46214D17BDA0016FA42 /* PBXTargetDependency */,
 			);
 			name = MyLibraryTest;
 			productName = MyLibraryTest;
@@ -172,12 +132,6 @@
 			mainGroup = C91BD05E14C0436200727134;
 			productRefGroup = C91BD06A14C0436200727134 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = C91BD08514C0436F00727134 /* Products */;
-					ProjectRef = C91BD08414C0436F00727134 /* MyLibrary.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				C91BD06814C0436200727134 /* MyLibraryTest */,
@@ -185,29 +139,12 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		C91BD08D14C0437000727134 /* libMyLibrary.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libMyLibrary.a;
-			remoteRef = C91BD08C14C0437000727134 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C91BD08F14C0437000727134 /* MyLibraryResources.bundle */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = MyLibraryResources.bundle;
-			remoteRef = C91BD08E14C0437000727134 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		C91BD06714C0436200727134 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C91BD09214C0440B00727134 /* MyLibraryResources.bundle in Resources */,
+				93D0801218D0951A008FCAF7 /* MyLibraryResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,19 +161,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A7DFD46214D17BDA0016FA42 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MyLibrary;
-			targetProxy = A7DFD46114D17BDA0016FA42 /* PBXContainerItemProxy */;
-		};
-		A7DFD46414D17BDD0016FA42 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MyLibraryResources;
-			targetProxy = A7DFD46314D17BDD0016FA42 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C91BD07F14C0436200727134 /* Debug */ = {
